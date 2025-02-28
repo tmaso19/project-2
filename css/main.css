@@ -93,6 +93,13 @@ margin-top: 0;
 .menu {
     display: block; /* Hide the menu by default */
     list-style: none;
+    flex-direction: row;
+    background-color: #000000;
+    border-radius: 0%;
+    display: flex;
+    justify-content: left;
+    justify-content: space-around;
+    color: #ffffff;
 
    }
    .menu.expanded {
@@ -100,6 +107,7 @@ margin-top: 0;
    }
    .hamburger {
      display: none; /* Hide the hamburger button by default */
+     flex-direction: row;
    }
    
    @media (max-width: 428px) {
