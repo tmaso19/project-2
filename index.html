@@ -13,7 +13,7 @@
   <meta property="og:image" content="">
 
   <link rel="manifest" href="site.webmanifest">
-  <link rel="icon" href="icon.png">
+  <!-- <link rel="icon" href="8ball.png"> -->
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -24,18 +24,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
 </head>
 
 <main>
 <body>
   <nav>
-
-  
- <header>
+  <button class="hamburger" aria-expanded="false"
+  aria-controls="main-menu">
+  <span class="hamburger-icon"></span> Menu
+  </button>
+  <ul id="main-menu" class="menu">
+  <li><a href="index.html">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  </ul>
+  </nav>
+ <!-- <header>
   <a href="contact.html"> contact</a>
   <a href="index.html"> home</a>
  </header>
-  
+   -->
  <div class="hero">
   <div class="hero-content-image">
     <img src="./img/Artboard 1.png" class="image" alt="">
@@ -67,11 +76,6 @@
   <img src="./img/whiskey glass .png" width="300" alt="">
   </div>
 </div>
-
-
-
-</nav>
-
 
   <script src="js/main.js"></script>
 </body>
